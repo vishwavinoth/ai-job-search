@@ -59,7 +59,7 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Vishwa R - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -69,13 +69,15 @@ Expected output: `Output written on main_<company>_<role>.pdf (2 pages, ...)`. A
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
+\name{Vishwa}{R}
+\title{Full Stack Developer}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\address{Bengaluru, India}{}{}
+\phone[mobile]{+91 85248 40646}
+\email{vishwa.js@outlook.com}
+% URLs are printed literally: an ATS reads the text layer, not hyperlink targets.
+\extrainfo{\href{https://www.linkedin.com/in/vishwaoffl}{linkedin.com/in/vishwaoffl} | \href{https://github.com/vishwavinoth}{github.com/vishwavinoth} | \href{https://vishwa.vercel.app}{vishwa.vercel.app}}
 
 \begin{document}
 \makecvtitle
@@ -136,12 +138,14 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full Stack / Frontend Developer roles:**
+> Full Stack Developer with 4+ years delivering client web applications in React, Next.js, Node.js and TypeScript for customers in the UK, US and India. Owns delivery end to end: requirements and PRDs, domain modelling, build, deployment on Linux and Docker, and production incident response.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI Engineer / Agentic Engineer roles:**
+> Full stack engineer who builds with AI as well as for it: custom agents, MCP servers and Claude Code skills in a spec-driven development workflow with a QA review step before merge, plus LLM-backed automation on n8n in production. 4+ years shipping React, Next.js and Node.js systems for customers in the UK, US and India.
+
+**For Solutions / Automation Engineer roles:**
+> Developer who turns client conversations into working systems: requirements and PRDs alongside sales, then architecture, build and deployment. 4+ years across booking, publishing, KYC and bookkeeping platforms, with scheduled email and SMS workflows on n8n and LLM APIs replacing manual follow-up.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
@@ -367,10 +371,11 @@ The section order varies by role type:
 1. Profile statement / elevator pitch
 2. Core competencies / Skills
 3. Professional Experience (reverse chronological)
-4. Education (reverse chronological)
-5. Languages
-6. Publications & Awards
-7. References
+4. Projects
+5. Education (reverse chronological)
+6. Languages
+7. Publications & Awards
+8. References
 
 **For domain-specific / specialist roles:**
 1. Profile statement / elevator pitch

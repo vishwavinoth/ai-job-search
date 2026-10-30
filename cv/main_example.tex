@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Global CV - Vishwa R
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -40,7 +39,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Vishwa R - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -48,15 +47,16 @@
 }}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-% If you have no address to list, DELETE this whole line. \address{}{}{} fails
-% with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Vishwa}{R}
+\title{Full Stack Developer}
+\address{Bengaluru, India}{}{}
+\phone[mobile]{+91 85248 40646}
+\email{vishwa.js@outlook.com}
+% URLs are printed literally: an ATS reads the text layer, not hyperlink targets.
+\extrainfo{\href{https://www.linkedin.com/in/vishwaoffl}{linkedin.com/in/vishwaoffl} | \href{https://github.com/vishwavinoth}{github.com/vishwavinoth} | \href{https://vishwa.vercel.app}{vishwa.vercel.app}}
 
 \begin{document}
 
@@ -67,25 +67,31 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Full Stack Developer with 4+ years delivering client web applications in React, Next.js, Node.js and TypeScript for customers in the UK, US and India. Owns delivery end to end: requirements and PRDs, domain modelling, build, deployment on Linux and Docker, and production incident response. Builds AI-assisted development workflows with custom agents, MCP servers and Claude Code, and automates business processes with n8n and LLM APIs.}
 
 % ============================================================
-%     CORE COMPETENCIES
+%     SKILLS
 % ============================================================
 
-\section{Core Competencies}
+\section{Skills}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Languages and Frameworks}: JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, React Native, Laravel, PHP, HTML5, CSS3
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Frontend}: Redux Toolkit, Context API, React Hooks, Tailwind CSS, ShadCN, Responsive Design, Core Web Vitals, Accessibility (WCAG)
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Backend and APIs}: REST API Design, Webhooks, Authentication and Authorization, JWT, OAuth 2.0, Sequelize ORM
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Databases}: SQL, MySQL, PostgreSQL, MongoDB, schema design, migrations
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Infrastructure and DevOps}: Linux (Ubuntu), Docker, Nginx, PM2, CI/CD, GitHub Actions, AWS, Google Cloud Platform (GCP), Vercel, Git, GitHub, GitLab
+
+\item \textbf{AI Engineering}: AI agents, MCP server development, Claude Code skills, plugins and hooks, LLM API integration, RAG chatbots, n8n workflow automation, prompt engineering, GitHub Copilot
+
+\item \textbf{Commerce and CMS}: Headless CMS, Shopify, Shopify Hydrogen, WordPress, WooCommerce
+
+\item \textbf{Delivery}: Requirements gathering, PRDs, effort estimation, client communication, code review, mentoring, Agile, Jira, Postman, Figma
 
 \end{itemize}
 
@@ -97,32 +103,81 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Oct 2023 - Present}{Full Stack Developer}{Nexevo Technologies}{Bengaluru, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
+    \item Owned product delivery end to end: scoping and PRDs with the sales team, then architecture, build, deployment and post-release support
+    \item Shipped the platforms clients run their business on: multi-leg trip booking with vendor bidding and payment, academic publishing with article-processing charges, driver onboarding with automated identity verification, and a technician marketplace
+    \item Designed and integrated REST APIs and webhook flows with retry and idempotency handling, keeping client applications available when third-party services failed
+    \item Set up the project AI development workflow: custom agents, MCP servers and Claude Code skills, a written architecture spec agents must follow, and a QA review step that runs before merge
+    \item Replaced manual customer follow-up with scheduled email and SMS workflows on n8n and LLM APIs, covering webinar reminders, deposit alerts and overdue returns
+    \item Improved Core Web Vitals across client sites through code splitting, image optimization and caching
+    \item Deployed and maintained applications on Linux (Ubuntu) with Docker, Nginx and PM2, including CI/CD, SSL, credential management and production incident response
+    \item Coordinated across design, backend and mobile teams, ran client feedback cycles through delivery, and mentored junior developers
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Sep 2022 - Oct 2023}{Web Developer}{Embassy IT Solutions}{Bengaluru, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
+    \item Delivered client web applications in React, with reusable component libraries and responsive layouts
+    \item Integrated REST APIs and third-party services, including authentication flows and client-specific feature work
+    \item Debugged and resolved production issues across live client sites: browser compatibility, performance regressions and API failures
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jul 2022 - Sep 2022}{Frontend Developer}{Embassy IT Solutions}{Bengaluru, India}{}{\vspace{1pt}
 \begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
+    \item Developed UI components and responsive layouts for client web projects; promoted to Web Developer after three months
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     PROJECTS
+% ============================================================
+
+\section{Projects}
+\vspace{3pt}
+\begin{itemize}
+
+\item{\cventry{}{\href{https://app.wedriveglobal.com}{app.wedriveglobal.com}}{WeDrive Global ERP}{Next.js, TypeScript, Sequelize, MySQL}{}{\vspace{1pt}
+\begin{itemize}
+    \item Authored the 44-section business-architecture spec separating a commercial layer (lead, quote, one payment) from N independent trip legs, with 25 named invariants every later change is held to
+    \item Engineered the multi-leg booking engine covering 4 service types under one quote and one payment, with per-trip pricing across 2 currencies
+    \item Designed the vendor RFQ and bidding flow, and 5 role-scoped dashboards enforcing data isolation
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{}{\href{https://ijsrem.com}{ijsrem.com}}{IJSREM Journal Platform}{Next.js, TypeScript, Sequelize, MySQL}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implemented the 6-stage submission and peer-review workflow, from author submission and automatic reviewer assignment through to publication
+    \item Implemented article-processing-charge payments with GST handling, transactional email, role-based access control and SEO for published articles
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{}{Admin portal and mobile app}{Lions Go Mobility}{React, TypeScript, Node.js, Express, MySQL, React Native}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed a 14-screen admin portal for fleet, drivers, KYC review, live location tracking and payments, plus the REST API with JWT auth and KYC verification across 3 government ID types
+    \item Shipped the React Native app to Android and iOS, with S3 media storage, cron-driven SMS alerts and GitHub Actions staging deploys
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{}{\href{https://bookkeeping.jpsconsultingengineers.com}{bookkeeping.jpsconsultingengineers.com}}{JPSCE Bookkeeping Portal}{React, TypeScript, Node.js, MySQL}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implemented JWT access/refresh rotation with silent renewal, email-OTP two-factor and five-tier role-based access control
+    \item Delivered invoicing, timesheet and reporting modules with QuickBooks API integration, deployed to AWS through GitHub Actions
+\end{itemize}}}
+
+\vspace{3pt}
+
+\item{\cventry{}{Patient tracking system}{WaPass Injury Patient Tracking}{React, TypeScript, Laravel, MySQL}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed patient injury records with follow-up scheduling, reminders, role-based access and audit trails
+    \item Integrated OAuth 2.0 with eClinicalWorks using JWKS and signed assertions
 \end{itemize}}}
 
 \end{itemize}
@@ -135,15 +190,7 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2019-2022}{Bachelor of Science (B.Sc.) in Computer Science}{Thanthai Hans Roever College}{Perambalur, Tamil Nadu, India}{}{}}
 
 \end{itemize}
 
@@ -154,27 +201,18 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
+\item {Tamil (native), English (professional working proficiency), Kannada (conversational).}
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     PUBLICATIONS
 % ============================================================
 
 \section{Publications}
 \vspace{1pt}
 \begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item {Reliable Webhooks: Handling Retries, Duplicates, and Failure}
+\item {Your API Is Becoming an Interface for AI Agents}
 \end{itemize}
 
 % ============================================================

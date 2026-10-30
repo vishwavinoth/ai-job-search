@@ -4,51 +4,45 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
+*[Inferred from the CV and setup answers. No formal assessment taken and the behavioral questions were skipped - review before relying on this.]*
 
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Vishwa R's working pattern, as the CV shows it, is that of an **end-to-end builder**: someone who takes a project from client conversation through to production and stays accountable for it afterwards.
 
 ## Core Behavioral Drives
 
-| Drive | Level | Meaning |
-|-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+No assessment scores on file. Do not cite drive levels or scores in applications.
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **End-to-end ownership:** Runs delivery from scoping and PRDs through architecture, build, deployment and support.
+- **Structured thinking:** Writes things down before building, such as the 44-section architecture spec with 25 named invariants.
+- **Cross-team coordination:** Keeps design, backend and mobile teams and client feedback cycles moving together.
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- Building something new rather than maintaining something old (stated)
+- Solution design and workflow automation (stated)
+- Hands-on building and AI engineering (stated)
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Product-company experience:** Background is client delivery. Frame it as breadth across domains and closeness to the customer.
+- **No certifications yet:** Frame the shipped production systems as the evidence, and list certifications once earned.
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "ownership", "end to end", "0 to 1", "greenfield"
+- "build from scratch", "founding engineer", "wear many hats"
+- "automation", "AI-first", "agentic"
 
 When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+- "maintenance", "legacy support", "BAU"
+- "strictly follow specifications", "ticket-driven"
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Not stated yet. Ask before asserting any preference in an application.
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with ownership and shipped platforms, backed by a concrete project.
+- **CV:** Emphasize end-to-end delivery, AI workflow work with Claude Code, and production responsibility.
+- **Interviews:** Use the STAR examples in `07-interview-prep.md`.
+- **Don't overstate:** No claims of formal leadership, team management, or assessment results. The CV supports mentoring junior developers and cross-team coordination only.

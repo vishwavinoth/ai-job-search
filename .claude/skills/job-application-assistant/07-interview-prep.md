@@ -14,44 +14,59 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Drafted from the CV. Each Result needs your real outcome before you use it: nothing here was invented, so results without a number on the CV are marked TO ADD. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. WeDrive Global ERP (System design and domain modelling)
+**S:** A client needed one booking to cover several service types and independent trip legs, under one quote and one payment.
+**T:** Define the domain and build the booking engine so later changes would not break it.
+**A:** Wrote a 44-section business-architecture spec separating the commercial layer (lead, quote, payment) from an operational layer of N trip legs, with 25 named invariants. Built the engine for 4 service types with per-trip pricing across 2 currencies, plus vendor RFQ and bidding and 5 role-scoped dashboards.
+**R:** Live at app.wedriveglobal.com. TO ADD: usage or business outcome.
+**Use for:** "Tell me about a complex system you designed", "How do you handle ambiguous requirements?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Project AI development workflow (AI engineering and initiative)
+**S:** Project development needed a repeatable way to use AI tools without losing quality.
+**T:** Set up the AI development workflow for the project.
+**A:** Built custom agents, MCP servers and Claude Code skills, wrote an architecture spec agents must follow, and added a QA review step that runs before merge.
+**R:** TO ADD: effect on delivery speed or defects.
+**Use for:** "How do you use AI in your work?", "Tell me about a time you improved how a team works"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Webhook reliability (Debugging and production reliability)
+**S:** Client applications depended on third-party services that could fail.
+**T:** Keep the applications available when those services failed.
+**A:** Designed REST API and webhook flows with retry and idempotency handling.
+**R:** Client applications stayed available during third-party failures. TO ADD: a specific incident.
+**Use for:** "Tell me about a production issue", "How do you design for failure?"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Customer follow-up automation (Workflow automation)
+**S:** Customer follow-up was manual.
+**T:** Replace it with something that ran without staff effort.
+**A:** Built scheduled email and SMS workflows on n8n and LLM APIs for webinar reminders, deposit alerts and overdue returns.
+**R:** Manual follow-up replaced. TO ADD: hours saved or response rates.
+**Use for:** "Tell me about something you automated", "How do you find business value in technical work?"
+
+### 5. End-to-end delivery with sales and client teams (Ownership and communication)
+**S:** Client projects started as sales conversations rather than specifications.
+**T:** Turn them into plans the team could deliver.
+**A:** Worked with sales on scoping, wrote requirements, timelines and PRDs, coordinated design, backend and mobile teams, and ran client feedback cycles.
+**R:** TO ADD: a project delivered and how it was received.
+**Use for:** "Tell me about working with non-technical stakeholders", "How do you manage conflicting priorities?"
 
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+> Draft: "I've grown a lot at Nexevo owning projects end to end. I'm now looking for a role with a bigger technical challenge and more room to grow, particularly in AI engineering." Honest and forward-looking, with no negativity about the employer.
 
 ### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+> Acknowledge the gap, then bridge from adjacent work: you picked up React Native, Laravel and agent tooling on delivery projects. Name how you would close it.
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> Draft: "Building AI-driven products hands-on, with more say over architecture." Align it to the role's growth path.
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> TO ADD: choose a genuine one with a concrete mitigation. Your own answer is needed here.
+
+### "Do you need visa sponsorship?"
+> Be direct: yes for roles outside India. Then move to what you bring and how quickly you could start.
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

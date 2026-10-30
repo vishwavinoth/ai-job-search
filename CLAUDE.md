@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Vishwa R
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Vishwa R, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,76 +13,82 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+- **Name:** Vishwa R
+- **Location:** Bengaluru, India (Bengaluru or remote; relocation abroad only with employer visa sponsorship)
 - **Languages:**
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
+  | Tamil | Native |
+  | English | Professional working proficiency |
+  | Kannada | Conversational |
   <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
   working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
   undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
   lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
   04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **CV language:** English <!-- English unless your market expects otherwise; /setup asks -->
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Employed - Full Stack Developer at Nexevo Technologies
+- **LinkedIn headline:** "Full Stack Developer" <!-- from the CV title; the LinkedIn profile itself was not read -->
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.Sc. in Computer Science** (2019-2022) - Thanthai Hans Roever College, Perambalur, Tamil Nadu
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Full Stack Developer** (Oct 2023 - Present) - **Nexevo Technologies** (Bengaluru)
+  - Owned product delivery end to end, from scoping and PRDs with sales through architecture, build, deployment and support
+  - Shipped client platforms: multi-leg trip booking, academic publishing, driver onboarding, technician marketplace
+  - Set up the project AI development workflow: custom agents, MCP servers, Claude Code skills, and a QA review step before merge
+- **Web Developer** (Sep 2022 - Oct 2023) - **Embassy IT Solutions** (Bengaluru)
+  - Delivered client web applications in React, integrated REST APIs and resolved production issues
+- **Frontend Developer** (Jul 2022 - Sep 2022) - **Embassy IT Solutions** (Bengaluru)
+  - Built UI components; promoted to Web Developer after three months
+
+Full bullets and projects are in `.claude/skills/job-application-assistant/01-candidate-profile.md`.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, REST APIs, webhooks, MySQL, Tailwind CSS
+- **Secondary:** PostgreSQL, MongoDB, Docker, Nginx, Linux, AWS, GCP, CI/CD, MCP servers, AI agents, Claude Code, LLM API integration, n8n
+- **Domain:** Client web application delivery; booking, publishing, KYC, bookkeeping and healthcare platforms; workflow automation
+- **Software:** Git, GitHub, GitLab, GitHub Actions, Postman, Figma, Jira, Shopify, WordPress
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None yet. Wants free, useful certifications.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+<!-- Articles, not peer-reviewed. Details are on LinkedIn. -->
+- Reliable Webhooks: Handling Retries, Duplicates, and Failure.
+- Production Deployments Fail Without a Recovery Plan.
+- Next.js Parallel Routes for Complex Dashboard UIs.
+- Your API Is Becoming an Interface for AI Agents.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None listed.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Inferred from the CV and setup answers; no formal assessment. Review before relying on it. -->
+- **End-to-end ownership** - Runs projects from client conversation through to production support
+- **Structured thinking** - Writes specs before building
+- **Strengths:** Ownership, cross-team coordination, client communication, shipping
+- **Growth areas:** Product-company experience, certifications
+- **Thrives in:** Building something new, solution design, workflow automation
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building something new
+- Solutions and workflow automation
+- Hands-on building and AI engineering
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Open to any sector, prioritising high compensation and growth
+- Target roles: Full Stack Developer first, then AI Engineer, Solutions Engineer, Frontend/React Developer
 
 ### Deal-breakers
 <!-- Hard constraints on job search. Language requirements are handled separately and
 automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Relocation abroad without employer visa sponsorship
+- Low compensation or little room for growth (no numeric baseline set)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

@@ -28,6 +28,8 @@ Read the posting's eligibility / work rights / "who can apply" section **verbati
 
 If the candidate's permit also constrains *hours* or *start date* (a student visa with a term-time cap, a permit that begins on graduation), record that as a second gate under this section during `/setup`, with the specific dates. Do not merge it with the eligibility question above — they fail for different reasons and need different answers.
 
+**Candidate status:** based in India, with no recorded work rights outside it. Any role outside India needs employer visa sponsorship, so for those roles a posting that is silent on sponsorship is unverified, not a pass. Remote roles restricted to another country's residents fail this gate.
+
 A role that fails this gate is not scored and not drafted. Everything below applies only to roles that pass it.
 
 ## Language Gate — run before scoring
@@ -60,9 +62,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React, Next.js, Node.js, TypeScript, JavaScript, Express, REST APIs and webhooks, MySQL, SQL, Tailwind CSS, frontend performance, Docker, Linux, Nginx, CI/CD, Claude Code, MCP servers, AI agents, LLM API integration, n8n workflow automation
+**Moderate match areas:** PostgreSQL, MongoDB, AWS, GCP, React Native, Laravel/PHP, Shopify, WordPress, RAG chatbots
+**Weak match areas:** Python-heavy backends, Java, Go, .NET, Kubernetes, ML model training, data engineering, native mobile (Swift/Kotlin)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +76,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Full stack web development, frontend development, client application delivery, workflow automation, AI-assisted development (4+ years; mid-level)
+**Moderate:** AI engineering and agent building, solutions engineering, technical project delivery
+**Entry-level:** Staff/principal engineering, formal team management, ML engineering
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,9 +93,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- Bengaluru on-site or hybrid: PASS
+- Remote open to candidates in India: PASS
+- Relocation abroad with employer visa sponsorship confirmed: PASS (priority target - Singapore, Dubai/UAE, Europe, or elsewhere)
+- Relocation abroad, sponsorship not stated: FLAG (check the employer's careers page before drafting)
+- Relocation abroad, no sponsorship: FAIL (deal-breaker)
+- Relocation elsewhere in India: FLAG (not a stated preference; discuss with user)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -107,19 +112,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Hands-on building and AI engineering
+- High compensation and strong growth
+- Relocate abroad on a sponsored work visa (Singapore, Dubai/UAE, Europe, or elsewhere)
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building something new, designing solutions, workflow automation, AI engineering
+- Tasks that drain: not stated yet (ask rather than assume)
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed, so no pressure to accept a weak offer. High compensation is a stated priority; no numeric baseline given, so judge pay against the local market and flag anything clearly below it.
+- **Flexibility**: Bengaluru or remote now; relocation abroad needs sponsorship.
+- **Professional development**: Growth is a stated priority; wants free, useful certifications.
 
 ### 6. Salary Benchmark (Optional)
 
